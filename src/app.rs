@@ -218,9 +218,14 @@ pub fn app() -> Html {
                         <a href="https://yew.rs/" target="__blank">{"Yew"}</a>
                         { " and " }
                         <a href="https://picocss.com/" target="__blank">{"Pico"}</a>
+                        { ". Released under the " }
+                        <a href="https://github.com/wagecalculator/wagecalculator.github.io/blob/master/LICENSE-MIT" target="__blank">{"MIT License"}</a>
                         { ". Source code available on " }
                         <a href="https://github.com/wagecalculator/wagecalculator.github.io" target="__blank">{"GitHub"}</a>
-                        { ". Copyright © 2023 Athan Clark." }
+                        { "." }
+                    </p>
+                    <p>
+                        { "Copyright © 2023 Athan Clark." }
                     </p>
                 </div>
             </main>
