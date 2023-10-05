@@ -210,7 +210,19 @@ pub fn app() -> Html {
                 </div>
                 <h2 id="purpose">{ "Purpose" }</h2>
                 <p>{"This website is intended to help people recognize the different rates at which their wage equates to, without being overly complicated. Just adjust the values and see the other ones update!"}</p>
-                <p><strong>{" Disclaimer: "}</strong>{ DISCLAIMER }</p>
+                <hr />
+                <div style="text-align: center">
+                    <p><strong>{" Disclaimer: "}</strong>{ DISCLAIMER }</p>
+                    <p>
+                        { "Built with " }
+                        <a href="https://yew.rs/" target="__blank">{"Yew"}</a>
+                        { " and " }
+                        <a href="https://picocss.com/" target="__blank">{"Pico"}</a>
+                        { ". Source code available on " }
+                        <a href="https://github.com/wagecalculator/wagecalculator.github.io" target="__blank">{"GitHub"}</a>
+                        { ". Copyright © 2023 Athan Clark." }
+                    </p>
+                </div>
             </main>
             <a
                 href="https://github.com/wagecalculator/wagecalculator.github.io"
