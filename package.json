@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@picocss/pico": "file:../pico"
+    "@picocss/pico": "wagecalculator/pico#d2270f2bb1afa413ecf31f8a274659738a8cabfd"
   }
 }
