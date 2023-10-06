@@ -27,7 +27,15 @@ jobs:
       uses: jetli/trunk-action@v0.1.0
       with:
         version: 'latest'
-    - name: Build
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
+    - name: Install Node.js Dependencies
+      run: npm ci
+    - name: Build Frontend
       run: trunk build
+    - name: Build Backend
+      run: cargo build --features hydration
     - name: Run tests
       run: cargo test --verbose
