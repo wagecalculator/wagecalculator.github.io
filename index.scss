@@ -1,4 +1,11 @@
-@import "node_modules/@picocss/pico/scss/pico";
+@import "node_modules/@picocss/pico/scss/themes/default";
+@import "node_modules/@picocss/pico/scss/layout/document";
+@import "node_modules/@picocss/pico/scss/layout/container";
+@import "node_modules/@picocss/pico/scss/layout/grid";
+@import "node_modules/@picocss/pico/scss/layout/sectioning";
+@import "node_modules/@picocss/pico/scss/content/form";
+@import "node_modules/@picocss/pico/scss/content/typography";
+@import "node_modules/@picocss/pico/scss/components/card";
 
 body {
     background: var(--body-background);
