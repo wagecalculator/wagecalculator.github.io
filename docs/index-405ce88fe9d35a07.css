@@ -120,7 +120,7 @@ dialog > article {
 }
 
 a {
-  --text-decoration: none;
+  --text-decoration: underline;
 }
 a.secondary, a.contrast {
   --text-decoration: underline;
@@ -200,7 +200,7 @@ kbd {
 [data-theme=light],
 :root:not([data-theme=dark]) {
   --background-color: #fff;
-  --body-background: hsl(205, 18%, 86%);
+  --body-background: hsl(205, 20%, 94%);
   --color: hsl(205, 20%, 32%);
   --h1-color: hsl(205, 30%, 15%);
   --h2-color: #24333e;
@@ -210,9 +210,9 @@ kbd {
   --h6-color: #4d606d;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: hsl(205, 20%, 94%);
-  --primary: hsl(195, 85%, 41%);
-  --primary-hover: hsl(195, 90%, 32%);
-  --primary-focus: rgba(16, 149, 193, 0.125);
+  --primary: hsl(195, 82%, 59%);
+  --primary-hover: hsl(195, 80%, 50%);
+  --primary-focus: rgba(65, 193, 236, 0.125);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
   --secondary-hover: hsl(205, 20%, 32%);
