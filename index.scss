@@ -1,5 +1,9 @@
 @import "node_modules/@picocss/pico/scss/pico";
 
+body {
+    background: var(--body-background);
+}
+
 article {
     margin-top: var(--spacing);
     margin-bottom: 0;
@@ -25,18 +29,20 @@ article {
         transform:rotate(10deg)
     }
 }
-@media (max-width:500px) {
-    #github-corner:hover .octo-arm {
-        animation:none
-    }
-    #github-corner .octo-arm {
-        animation:octocat-wave 560ms ease-in-out
+@if map-get($breakpoints, "sm") {
+    @media (max-width: map-get($breakpoints, "sm")) {
+        #github-corner:hover .octo-arm {
+            animation:none
+        }
+        #github-corner .octo-arm {
+            animation:octocat-wave 560ms ease-in-out
+        }
     }
 }
 
 #github-corner svg {
     fill: var(--h1-color);
-    color: var(--background-color);
+    color: var(--body-background);
     position: absolute;
     top: 0;
     border: 0;
