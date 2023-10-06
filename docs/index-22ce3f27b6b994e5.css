@@ -210,9 +210,9 @@ kbd {
   --h6-color: #4d606d;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: hsl(205, 20%, 94%);
-  --primary: hsl(195, 80%, 50%);
-  --primary-hover: hsl(195, 85%, 41%);
-  --primary-focus: rgba(26, 179, 230, 0.125);
+  --primary: hsl(195, 85%, 41%);
+  --primary-hover: hsl(195, 90%, 32%);
+  --primary-focus: rgba(16, 149, 193, 0.125);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
   --secondary-hover: hsl(205, 20%, 32%);
