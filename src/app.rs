@@ -146,6 +146,7 @@ pub fn app() -> Html {
                             { "Annual Salary" }
                             <input
                                 type="number"
+                                class="currency"
                                 id="annual-salary"
                                 value={ format!("{:.2}", state_value.annual) }
                                 onchange={ on_change_annual }
@@ -157,6 +158,7 @@ pub fn app() -> Html {
                             { "Hourly Rate" }
                             <input
                                 type="number"
+                                class="currency"
                                 id="hourly-rate"
                                 value={ format!("{:.2}", state_value.hourly) }
                                 onchange={ on_change_hourly }
@@ -179,6 +181,7 @@ pub fn app() -> Html {
                             { "Bi-Weekly" }
                             <input
                                 type="number"
+                                class="currency"
                                 id="biweekly-rate"
                                 value={ format!("{:.2}", state_value.annual / (WEEKS_PER_YEAR / 2.0)) }
                                 onchange={ on_change_biweekly }
@@ -190,6 +193,7 @@ pub fn app() -> Html {
                             { "Semi-Monthly" }
                             <input
                                 type="number"
+                                class="currency"
                                 id="semimonthly-rate"
                                 value={ format!("{:.2}", state_value.annual / 24.0) }
                                 onchange={ on_change_semimonthly }
@@ -201,6 +205,7 @@ pub fn app() -> Html {
                             { "Monthly" }
                             <input
                                 type="number"
+                                class="currency"
                                 id="monthly-rate"
                                 value={ format!("{:.2}", state_value.annual / 12.0) }
                                 onchange={ on_change_monthly }
